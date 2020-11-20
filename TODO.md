@@ -1,0 +1,11 @@
+- [ ] Add `must-not-compile` tests for `Angle`.
+    - [ ] Create either starlark function or rule for a test for which passing means compilation error
+    - [ ] Move all source files from `kalman_et_al/math/test/src/compilation_error` here
+- [ ] Figure out the way to use eigen ( https://stackoverflow.com/questions/56172620/how-to-build-a-simple-c-demo-using-eigen-with-bazel )
+- [ ] Add `math/random`
+- [ ] Add `approx_eigen.hpp`
+- [ ] Add EKF
+- [ ] Find at least 2 interesting specializations for EKF
+- [ ] Implement them
+- [ ] Move to Catch2v3
+- [ ] Add CMake support
